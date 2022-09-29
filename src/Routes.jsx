@@ -9,7 +9,6 @@ const RoutesComponent = () => {
     <BrowserRouter history={history}>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<div>404</div>} />

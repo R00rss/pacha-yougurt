@@ -17,7 +17,7 @@ const Navbar = () => {
           Conócenos
         </li>
         <li
-          onClick={() => handleClick("home")}
+          onClick={() => handleClick("")}
           className="cursor-pointer px-5 rounded-md w-[min(150px,30%)] flex justify-center items-center flex-col hover:scale-[1.2] ease-in-out duration-150 hover:text-lime-900"
         >
           Inicio
