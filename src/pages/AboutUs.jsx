@@ -30,9 +30,8 @@ const AboutUs = () => {
           marginHeight={0}
           marginWidth={0}
           allowFullScreen={true}
-          src="http://www.youtube.com/embed/xllCUHt_yzc?enablejsapi=1&origin=http://youtube.com"
+          src="http://www.youtube.com/embed/xllCUHt_yzc"
           frameBorder={0}
-          typeof="text/html"
           scrolling="no"
         ></iframe>
         {/* </section> */}
