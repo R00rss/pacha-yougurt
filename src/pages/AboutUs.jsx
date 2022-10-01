@@ -13,14 +13,30 @@ const AboutUs = () => {
   };
   return (
     <Layout>
-      <section className="flex flex-col lg:flex-row gap-6 mx-5 lg:mx-auto lg:justify-center my-5">
-        <div className="mr-auto lg:mr-0 w-[min(75%,600px)]">
-          <Card content={mision} />
-        </div>
-        <div className="ml-auto lg:ml-0 w-[min(75%,600px)]">
-          <Card content={vision} />
-        </div>
-      </section>
+      <div className="flex flex-col justify-center items-center py-5 gap-5">
+        <section className="flex flex-col lg:flex-row gap-6 mx-5 lg:mx-auto lg:justify-center ">
+          <div className="mr-auto lg:mr-0 w-[min(75%,600px)]">
+            <Card content={mision} />
+          </div>
+          <div className="ml-auto lg:ml-0 w-[min(75%,600px)]">
+            <Card content={vision} />
+          </div>
+        </section>
+        {/* <section className="w-full"> */}
+        <iframe
+          className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
+          id="player"
+          type="text/html"
+          marginHeight={0}
+          marginWidth={0}
+          allowFullScreen={true}
+          src="http://www.youtube.com/embed/xllCUHt_yzc?enablejsapi=1&origin=http://youtube.com"
+          frameBorder={0}
+          typeof="text/html"
+          scrolling="no"
+        ></iframe>
+        {/* </section> */}
+      </div>
     </Layout>
   );
 };
