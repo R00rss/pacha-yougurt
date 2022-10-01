@@ -23,13 +23,13 @@ const AboutUs = () => {
           </div>
         </section>
         {/* <section className="w-full"> */}
-        <iframe
+        {/* <iframe
           className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
-          src="https://www.youtube.com/embed/xllCUHt_yzc?vq=hd1080"
+          src="//https://www.youtube.com/embed/xllCUHt_yzc?vq=hd1080"
           title="Pacha Yogurt: yogurt de aguacate y utensilios"
           frameBorder={0}
           allowFullScreen={true}
-        ></iframe>
+        ></iframe> */}
         {/* <iframe
           className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
           id="player"
