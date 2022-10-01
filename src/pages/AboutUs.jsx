@@ -26,12 +26,12 @@ const AboutUs = () => {
         <iframe
           className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
           id="player"
-          type="text/html"
           marginHeight={0}
           marginWidth={0}
           allowFullScreen={true}
           src="http://www.youtube.com/embed/xllCUHt_yzc"
           frameBorder={0}
+          referrerPolicy="no-referrer-when-downgrade"
           scrolling="no"
         ></iframe>
         {/* </section> */}
