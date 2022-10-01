@@ -25,15 +25,22 @@ const AboutUs = () => {
         {/* <section className="w-full"> */}
         <iframe
           className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
+          src="https://www.youtube.com/embed/xllCUHt_yzc?vq=hd1080"
+          title="Pacha Yogurt: yogurt de aguacate y utensilios"
+          frameBorder={0}
+          allowFullScreen={true}
+        ></iframe>
+        {/* <iframe
+          className="w-[min(900px,70%)] aspect-[6/10] md:aspect-video"
           id="player"
           marginHeight={0}
           marginWidth={0}
           allowFullScreen={true}
-          src="http://www.youtube.com/embed/xllCUHt_yzc"
+          src="https://www.youtube.com/watch?v=xllCUHt_yzc&ab_channel=BeatrizPalacios"
           frameBorder={0}
           referrerPolicy="no-referrer-when-downgrade"
           scrolling="no"
-        ></iframe>
+        ></iframe> */}
         {/* </section> */}
       </div>
     </Layout>
